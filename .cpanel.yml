@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/webv3/public_html/cicd.chungpq.id.vn/  # Update with your cPanel account's home directory path
+    - /bin/cp -R * $DEPLOYPATH
